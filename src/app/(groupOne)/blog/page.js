@@ -11,7 +11,7 @@ import clientPromise from '@/app/lib/mongoroute';
 const page = async() => {
   try {
     const res =await fetch("https://next-posts-ten.vercel.app/api/posts")
-    
+
     var posts =await res.json()
   } catch (error) {
   }
